@@ -101,7 +101,7 @@ button:hover{
     top: 0;
 
     z-index: 20;
-    background-color:#a74be0;
+    background: linear-gradient(90deg,#c273f3,#b669e6,#ac4bec,#c98ae0);
     border: 1px solid #a44ac5;
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
@@ -873,6 +873,7 @@ border: 0;
     color: #b595ca;
     font-weight: 700;
     margin-top: 900px;
+    margin-bottom: 150px;
 
    
 }
@@ -881,14 +882,14 @@ border: 0;
 .header__div{
     justify-content: space-evenly;
     
-    margin-top: 80px;
+    margin-top: 30px;
     width: 100%;
     height: 300px;
 
     
 }
 .main-layout .header__div h1{
-    background:linear-gradient(90deg , #cc85e6,#571B7E,#ef84f5);
+    background:linear-gradient(90deg , #b455d6,#c77ff8,#ef84f5);
   -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -896,7 +897,7 @@ border: 0;
     font-family: 'Roboto', sans-serif;
        text-align: justify;
        font-weight: 800;
-    font-size: 40px;
+    font-size: 38px;
  
 }
 .piggy-img{
@@ -907,10 +908,17 @@ border: 0;
     text-align: center;
     padding: 10px;
     position: absolute;
-    top: 16%;
+    top: 14%;
   
   transform: -50% 50%;
    
+}
+.btn-div a:hover{
+    box-shadow: -2px -2px 2px #efa3f3,
+    -3px -2px 5px #efa3f3 ,
+    -2px 2px 5px #bb75be, 
+    -4px 2px 9px #ecc4ee ;
+
 }
 
 .buttons{
@@ -919,6 +927,8 @@ border: 0;
     border-radius: 10px;
     background: linear-gradient(40deg,#c559ca,#a44ac5,#d464da,#c98ae0);
     border: 0;
+    text-decoration: none;
+    color: #1b0f25;
 }
 
 .chartSvg{
@@ -926,13 +936,18 @@ border: 0;
     position: absolute;
 }
 .cryptoList{
+    background: transparent;
    
     position: relative;
-    padding: 10px;
+    padding: 5px;
     height: 850px;
     border-radius: 10px;
    
 
+}
+.cryptoList h2{
+    color: #340736;
+    font-size: 30px;
 }
 .crypto-details{
     margin-top: 5px;
@@ -946,7 +961,7 @@ border: 0;
  
 }
 .crypto-container p{
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
 
 }
@@ -961,8 +976,13 @@ border: 0;
         text-align: center;
         padding: 5px;
         font-size: 14px;
+      
         font-weight: 700;
      
+    }
+    .crypto-headers p{
+        font-size: 13px;
+
     }
    
 
@@ -1211,7 +1231,7 @@ border: 0;
    
 }
 .savings__div .save:hover{
-    scale: 1.05;
+  
     border: 3px solid #A23BEC;
  
     
@@ -1271,7 +1291,7 @@ border: 0;
     }
     .packages:hover{
         
-        scale: 1.1;
+        
         border: 3px solid #A23BEC;
         transition: all 30ms ease;
 
@@ -1305,7 +1325,7 @@ border: 0;
 
 }
 .course__btn:hover{
-    scale: 1.09;
+    
     transition: all ease 100ms;
 }
 
@@ -1434,7 +1454,7 @@ background: linear-gradient(40deg,#c559ca,#a44ac5,#d464da,#c98ae0);
 border: 0;
 }
 .save__btnDiv:hover,.invest__btnDiv:hover{
-    scale: 1.05;
+    
 cursor: pointer;
 
     transition: all ease 100ms;

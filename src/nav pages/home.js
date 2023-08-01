@@ -1,12 +1,15 @@
 import React from 'react'
 //Components
-import { Buttons } from './home sections/Button.js'
+// import { Buttons } from './home sections/Button.js'
 import {Price} from './home sections/price.js'
 import { Services } from './home sections/services'
 import {Footer} from './home sections/footer/footer'
 import { Reviews } from './home sections/reviews folder/review img/Reviews.js'
 import { Steps } from './home sections/get started/steps.js'
 import Typewriter from 'typewriter-effect'
+
+
+
 
 
 //Impoted Images
@@ -48,7 +51,7 @@ export function Home() {
             <Typewriter className='typewriter'
             onInit={(typewrite)=>{
              return typewrite.typeString(`<span className='header__span'>Crypto-Piggy Bank</span> `).changeDelay(80)
-             .pauseFor(500).deleteAll().typeString(`<span className='header__span'>Safest Piggy Bank</span> `).pauseFor(500)
+             .pauseFor(500).deleteAll().typeString(`<span className='header__span'>Secure Piggy Bank</span> `).pauseFor(500)
              .deleteAll().typeString(`<span className='header__span'>Crypto-Piggy Bank</span> `).start()
             }}
             /></h1>
@@ -70,7 +73,7 @@ export function Home() {
           <div className='btn-div'>
 
           
-            <Buttons classN='buttons' textDisplay = 'Get started' />
+            <a href='#getstarted' className='buttons'>Get started</a>
             
             </div>
 
@@ -172,8 +175,8 @@ export function Home() {
               </section>
 
             
-              <section className='steps__main'>
-                <h2>How to Get started</h2>
+              <section className='steps__main' >
+                <h2 id='getstarted'>How to Get started</h2>
                 <div className='steps__section'>
 
                 

@@ -13,23 +13,37 @@ export function Nav(){
     <nav>
         <ul>
             <li><img src ={homeIcon} alt="home icon" />
-                <Link to='/'>Home</Link>
+                <Link to='/'
+                onClick={()=>{
+                    window.scroll(0,0)
+                }}>Home</Link>
             </li>
             <li>
             <img src ={saveIcon} alt='savings icon' />
-                <Link to='/save'>Save</Link>
+                <Link to='/save'
+                onClick={()=>{
+                    window.scroll(0,0)
+                }}>Save</Link>
             </li>
             <li><img src ={earnIcon} alt="earnings icon" />
-                <Link to='/investments'>Earn</Link>
+                <Link to='/investments'
+                onClick={()=>{
+                    window.scroll(0,0)
+                }}>Earn</Link>
             </li>
            
             <li>
                 <img src ={learnIcon} alt='courses icon' />
-                <Link to='/learn'>Learn</Link>
+                <Link to='/learn' 
+                 onClick={()=>{
+                    window.scroll(0,0)
+                }}>Learn</Link>
             </li>
             <li>
-            <img src ={accountIcon} alt='conatct icon' />
-                <Link to='/account'>Account</Link>
+            <img src ={accountIcon} alt='account icon' />
+                <Link to='/account' onClick={()=>{
+                    window.scroll(0,0)
+                }}>Account</Link>
             </li>
            
           
