@@ -7,7 +7,7 @@ import { Buttons } from './home sections/Button';
 
 
 export function Account() {
-const [errMsg,setErrMsg] = useState(null)
+const [errMsg,setErrMsg] = useState('Install Metamask')
 const [accountAdd ,setAccountAdd] =useState(null)
 //const [balance, setBalance] = useState(null)
 const [btnText, setBtnText] = useState( 'Connect wallet')

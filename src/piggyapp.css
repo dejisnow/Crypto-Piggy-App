@@ -865,15 +865,19 @@ border: 0;
 .main-layout img{
     display: none;
 }
+.main-text-div p{
+    background: linear-gradient(90deg, var(--bgImage-prim3),var(--bgImage-prim2),#6e0a74);
+    border-radius: 10px;
+}
 
 .main-text-div p{
     text-align: justify;
     padding: 10px;
-    font-size: 15px;
-    color: #b595ca;
+    font-size: 14px;
+    color: #d49df8;
     font-weight: 700;
     margin-top: 900px;
-    margin-bottom: 150px;
+ 
 
    
 }
