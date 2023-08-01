@@ -893,6 +893,7 @@ border: 0;
     
 }
 .main-layout .header__div h1{
+    position: absolute;
     background:linear-gradient(90deg , #b455d6,#c77ff8,#ef84f5);
   -webkit-background-clip: text;
     background-clip: text;
@@ -912,7 +913,7 @@ border: 0;
     text-align: center;
     padding: 10px;
     position: absolute;
-    top: 11%;
+    top: 10%;
   
   transform: -50% 50%;
    
