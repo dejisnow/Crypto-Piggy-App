@@ -44,7 +44,7 @@ function connectWallet(){
           <div className='account__details'>
             <img src={thanosImg} alt='display of thanos'></img>
             <p >Wallet Address : <span> {accountAdd} </span></p>
-            <p>Account Balance : {balance}</p>
+            <p>Account Balance : </p>
           </div>
 
         </div>
@@ -85,7 +85,7 @@ function connectWallet(){
               </div>
               <div className='details__div'>
                 <p className='date__div'>01/08/2023</p>
-                <a href='#' >Transfer</a>
+                <a href='#transfer' >Transfer</a>
                 <p className='transaction__div'>Successful</p>
 
               </div>
