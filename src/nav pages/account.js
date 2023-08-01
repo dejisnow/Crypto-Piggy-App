@@ -9,24 +9,21 @@ import { Buttons } from './home sections/Button';
 export function Account() {
 const [errMsg,setErrMsg] = useState(null)
 const [accountAdd ,setAccountAdd] =useState(null)
-const [balance, setBalance] = useState(null)
-const [btnText, setBtnText] = useState('Connect wallet')
+//const [balance, setBalance] = useState(null)
+const [btnText, setBtnText] = useState( 'Connect wallet')
 
 function connectWallet(){
   if(window.ethereum){
-   
-    
-    window.ethereum.request({method:'eth_requestAccounts'})
+    window.ethereum.request({method:'eth_requestAccounts' })
     .then(result =>{
       accountCheck(result[0]
-        )
-       
-    })
+        ) })
+      }else{
 
-
-  }else{
     setErrMsg('You need to install metamask')
+    alert(errMsg)
   }
+}
 
   function accountCheck(account){
       setAccountAdd(account)
@@ -38,7 +35,6 @@ function connectWallet(){
   //     .then(balance => setBalance(ethers.utils.formatEther(balance)))
   // }
 
-}
   return (
     <div className='account__main'>
     <div className='account__div'>
@@ -106,3 +102,4 @@ function connectWallet(){
     </div>
   )
 }
+
