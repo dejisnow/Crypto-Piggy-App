@@ -866,7 +866,7 @@ border: 0;
     display: none;
 }
 .main-text-div p{
-    background: linear-gradient(90deg, var(--bgImage-prim3),var(--bgImage-prim2),#530c57);
+    background: linear-gradient(90deg,var(--bgImage-prim3), transparent, var(--bgImage-prim2),#530c57, transparent);
     border-radius: 10px;
 }
 
@@ -876,7 +876,7 @@ border: 0;
     font-size: 14px;
     color: #d49df8;
     font-weight: 700;
-    margin-top: 900px;
+    margin-top: 700px;
  
 
    
@@ -886,9 +886,9 @@ border: 0;
 .header__div{
     justify-content: space-evenly;
     
-    margin-top: 30px;
+  
     width: 100%;
-    height: 300px;
+    height: 500px;
 
     
 }
@@ -912,7 +912,7 @@ border: 0;
     text-align: center;
     padding: 10px;
     position: absolute;
-    top: 14%;
+    top: 16%;
   
   transform: -50% 50%;
    

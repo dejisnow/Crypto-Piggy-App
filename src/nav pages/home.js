@@ -51,7 +51,7 @@ export function Home() {
             <Typewriter className='typewriter'
             onInit={(typewrite)=>{
              return typewrite.typeString(`<span className='header__span'>Crypto-Piggy Bank</span> `).changeDelay(80)
-             .pauseFor(500).deleteAll().typeString(`<span className='header__span'>Secure Piggy Bank</span> `)
+             .pauseFor(500).deleteAll().typeString(`<span className='header__span'>Piggy Bank</span> `).pauseFor(500)
              .deleteAll().typeString(`<span className='header__span'>Crypto-Piggy Bank</span> `).start()
             }}
             /></h1>
