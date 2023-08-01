@@ -195,7 +195,7 @@ export function Home() {
 
               </section>
               <div className='getStarted__div'>
-              <a href='http://localhost:3000/account' className='connect__walletButton'>Click to Get Started</a>
+              <a href='http://localhost:3000/account' className='connect__walletButton'>Click Here to Get Started</a>
 
               </div>
              
