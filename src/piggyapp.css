@@ -72,6 +72,16 @@ button:hover{
     -2px 2px 5px #bb75be, 
     -4px 2px 9px #ecc4ee ;
   }
+  .buttons{
+    text-decoration: none;
+  }
+  .buttons:hover{
+    box-shadow: -2px -2px 2px #efa3f3,
+    -3px -2px 5px #efa3f3 ,
+    -2px 2px 5px #bb75be, 
+    -4px 2px 9px #ecc4ee ;
+
+  }
   
   
 
@@ -915,7 +925,7 @@ border: 0;
     text-align: center;
     padding: 10px;
     position: absolute;
-    top: 9%;
+    top: 9.5%;
   
   transform: -50% 50%;
    
@@ -1102,6 +1112,7 @@ border: 0;
         padding: 10px;
         
     }
+   
 
 
     .reviews__div .reviews__text {
@@ -1508,9 +1519,17 @@ cursor: pointer;
     font-weight: 800;
     padding: 10px;
 }
+
 .getStarted__div a{
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
+}
+
+.connect__walletBtn:hover{
+    
+    scale: 1;
+    
+
 }
 
 

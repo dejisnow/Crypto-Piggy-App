@@ -40,7 +40,7 @@ export function Home() {
 
               
        
-      <div className="home-page">
+      <div className="home-page" id='home'>
      
        
 
@@ -195,7 +195,7 @@ export function Home() {
 
               </section>
               <div className='getStarted__div'>
-              <a href='/account' className='connect__walletButton'>Click Account to Get Started</a>
+              <a href='#home' className='connect__walletButton'>Click "Account" to Get Started</a>
 
               </div>
              

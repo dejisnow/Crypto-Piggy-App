@@ -14,9 +14,10 @@ const [btnText, setBtnText] = useState( 'Connect wallet')
 
 function connectWallet(){
   if(window.ethereum){
-    setBtnText('Connected')
+ 
     window.ethereum.request({method:'eth_requestAccounts' })
     .then(result =>{
+      setBtnText('Connected')
       accountCheck(result[0]
         ) })
       }else{
