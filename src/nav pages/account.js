@@ -29,7 +29,7 @@ function connectWallet(){
 
   function accountCheck(account){
       setAccountAdd(account)
-      // getAccountBalance(account)
+    
   }
   
   // function getAccountBalance(address){
