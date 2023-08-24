@@ -262,7 +262,7 @@ color:white;
 
 
 .cryptoList{
-
+          color: #eca6f0;
    
     position: relative;
 
@@ -282,6 +282,7 @@ color:white;
     border-radius: 10px;
     box-shadow: -5px 2px 7px #f172f8;
     padding: 10px;
+      color: #eca6f0;
    
     height: 600px;
 
@@ -328,6 +329,7 @@ color:white;
 
     .service__div{
         display: flex;
+        color: #eca6f0;
         flex-wrap: wrap;
         text-align: center;
         place-content: center;
