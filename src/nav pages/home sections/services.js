@@ -5,14 +5,23 @@ import React from 'react'
 export function Services( {header,text,img}) {
 
   return (
-    <section className='services'>
-               
-                    <h2>{header}</h2>
-                    <img src={img} alt='svg1' />
-                    <p> {text} </p>
-                  
+    <section className='services'>  
+              <div>
+                <h2>{header}</h2>
                 
-      
+              </div>     
+                   
+               <div>
+                <img src={img} alt='svg1' />
+
+                </div>
+                <div>
+                <p> {text} </p>
+
+                </div>  
+                    
+                   
+                   
     </section>
   )
 }

@@ -7,7 +7,7 @@ export function Invest() {
   
     const [data, setData] = useState([])
     useEffect(()=>{
-        Axios.get('https://api.coinstats.app/public/v1/coins?skip=0&limit=12').then(response=> setData(response.data.coins))
+        Axios.get('https://api.coinstats.app/public/v1/coins?skip=0&limit=15').then(response=> setData(response.data.coins))
         },[]);
            
   return (
@@ -24,7 +24,7 @@ export function Invest() {
 
     <div className='packages'><div>
     
-        <div><img src={coin.icon} alt='investment options' /></div>
+        <div><img className='inv__img' src={coin.icon} alt='investment options' /></div>
         <p>{coin.name}</p>
         </div>
         <div className='apr-div'>
