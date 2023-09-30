@@ -513,13 +513,14 @@ color:white;
         width: 100%;
      
     }
-
+ 
     .footer__container{
 
         display: grid;
         grid-auto-flow: column;
         text-align: justify;
         padding: 10px;
+        justify-content:space-around;
        
       
       

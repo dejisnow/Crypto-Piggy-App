@@ -200,8 +200,10 @@ export function Home() {
               </div>
              
       
+          
+          <Footer />
 
-              <Footer />
+             
               
 
               
