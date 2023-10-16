@@ -7,17 +7,12 @@
     margin: 0;
     box-sizing: border-box;
 
-    --bgImage-prim1 : #8e2de2; 
-    --bgImage-prim2 : #734b6d; 
-    --bgImage-prim3 : #42275a; 
+    --bgImage-prim1 : #a478b8; 
+    --bgImage-prim2 : #e0c2f2; 
+    --bgImage-prim3 : #f7e7fb; 
   
-    --bgImage-prim4 : #571B7E; 
-    --bgImage-prim5 : #b559b9; 
-    --bgImage-prim6 : #f172f8; 
-    --bgImage-prim7 : #A23BEC; 
-    --bgImage-prim8 : #C45AEC; 
-    --bgImage-prim9 : #8420CE; 
-   
+    --bgImage-prim4 : #f5ae52; 
+
 
     font-family: 'Montserrat', sans-serif;
 
@@ -35,7 +30,7 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px #cc85e6; 
+    box-shadow: inset 0 0 5px C; 
     border-radius: 2px;
   }
    
@@ -51,7 +46,7 @@
   }
 
 body{
-    background: linear-gradient(90deg, var(--bgImage-prim1),var(--bgImage-prim2),var(--bgImage-prim3));
+    background: linear-gradient(90deg, var(--bgImage-prim1),var(--bgImage-prim2),var(--bgImage-prim1));
 }
 
 /* --Web-- */
@@ -270,7 +265,7 @@ color:white;
     height: 800px;
   
  
-    background: linear-gradient(90deg, var(--bgImage-prim4),var(--bgImage-prim2),#77337a);
+    background: linear-gradient(90deg, var(--bgImage-prim1),var(--bgImage-prim2),var(--bgImage-prim1));
 }
 .cryptoList h2{
     margin: 40px 0;
