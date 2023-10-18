@@ -46,7 +46,7 @@
   }
 
 body{
-    background: linear-gradient(90deg, var(--bgImage-prim1),var(--bgImage-prim2),var(--bgImage-prim1));
+    background: linear-gradient(125deg, var(--bgImage-prim1),var(--bgImage-prim2),var(--bgImage-prim1));
 }
 
 /* --Web-- */
@@ -257,7 +257,7 @@ color:white;
 
 
 .cryptoList{
-          color: #eca6f0;
+          color: #340736;
    
     position: relative;
 
@@ -275,9 +275,9 @@ color:white;
 .crypto-details{
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: -5px 2px 7px #f172f8;
+    box-shadow: -8px 8px 5px var(--bgImage-prim1);
     padding: 10px;
-      color: #eca6f0;
+    color: #340736;
    
     height: 600px;
 
@@ -324,7 +324,7 @@ color:white;
 
     .service__div{
         display: flex;
-        color: #eca6f0;
+        color: #340736;
         flex-wrap: wrap;
         text-align: center;
         place-content: center;
@@ -350,7 +350,7 @@ color:white;
         text-align: center;
         line-height: 25px;
         padding: 10px;
-        color: #ecc4ee;
+        color: #340736;
     }
 
  
@@ -476,14 +476,15 @@ color:white;
     text-align: center;
    
     background: transparent;
-    color: #ffffff;
+    color: #340736;
+    font-weight: 600;
     font-size: 15px;
     padding: 10px; 
     line-height: 20px;
 }
 .quote__div{
     display: grid;
-     box-shadow: -8px 8px 5px #f172f8;
+     box-shadow: -8px 8px 5px var(--bgImage-prim1);
      text-align: center;
      height: 200px;
   
@@ -495,6 +496,9 @@ color:white;
 }
 .reviews__div .reviews__author {
     margin-top: 10px;
+    color: #340736;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 
@@ -531,7 +535,7 @@ color:white;
     }
     .footer__container ul li a{
         text-decoration: none;
-        color: #c98ae0;
+        color: #340736;
     }
     .footer__container ul li a:hover{
         
