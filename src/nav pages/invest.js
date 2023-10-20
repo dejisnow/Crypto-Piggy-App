@@ -7,7 +7,12 @@ export function Invest() {
   
     const [data, setData] = useState([])
     useEffect(()=>{
+       
         Axios.get('https://api.coinstats.app/public/v1/coins?skip=0&limit=15').then(response=> setData(response.data.coins))
+        .catch((err)=>{
+            console.log(err)
+          })
+        return ()=>{}
         },[]);
            
   return (

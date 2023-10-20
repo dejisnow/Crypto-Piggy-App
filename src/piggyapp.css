@@ -106,7 +106,7 @@ button:hover{
     top: 0;
 
     z-index: 20;
-    background: linear-gradient(90deg,#c273f3,#b669e6,#ac4bec,#c98ae0);
+    background: linear-gradient(90deg,var(--bgImage-prim1),var(--bgImage-prim2));
     border: 1px solid #a44ac5;
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;

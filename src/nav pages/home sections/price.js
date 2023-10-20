@@ -8,7 +8,14 @@ export function Price() {
   const [values,setValues] = useState([])
   
   useEffect(()=>{
+  
     Axios.get('https://api.coinstats.app/public/v1/coins?skip=0&limit=14').then(response=> setValues(response.data.coins))
+    .catch((err)=>{
+      console.log(err)
+    })
+    return()=>{
+
+    }
     },[]);
        
 
