@@ -27,8 +27,10 @@ export function Price() {
           <p className='symb' key={val.id}>{val.symbol}</p>
           <p className='prices' key={val.id}>{val.price.toFixed(2)}</p>
         
-          <p key={val.id} style={parseFloat(val.priceChange1d) <= 0 ? {
-            color:'red' } : {color :' #00FF00'}
+          <p key={val.id} style={
+           
+            parseFloat(val.priceChange1d) <= 0 ? {
+            color:'red',fontWeight:'900' } : {color :' #083d0b',fontWeight:'900'}
           }>{parseFloat(val.priceChange1d) > 0 ? `+${val.priceChange1d}` : val.priceChange1d} </p>
         </div>
         

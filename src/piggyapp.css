@@ -265,7 +265,7 @@ color:white;
     height: 800px;
   
  
-    background: linear-gradient(90deg, var(--bgImage-prim1),var(--bgImage-prim2),var(--bgImage-prim1));
+    background: linear-gradient(-90deg, var(--bgImage-prim1),var(--bgImage-prim2),var(--bgImage-prim1));
 }
 .cryptoList h2{
     margin: 40px 0;
@@ -298,7 +298,7 @@ color:white;
 
 }
 .crypto-container .symb,.prices{
-    font-weight: 800;
+    font-weight: 900;
 }
 .crypto-container img{
     width: 30px;
