@@ -10,8 +10,10 @@
     --bgImage-prim1 : #a478b8; 
     --bgImage-prim2 : #e0c2f2; 
     --bgImage-prim3 : #f7e7fb; 
+    --fontColor:#340736;
   
     --bgImage-prim4 : #f5ae52; 
+    --priceColor:#1e5631;
 
 
     font-family: 'Montserrat', sans-serif;
@@ -257,7 +259,7 @@ color:white;
 
 
 .cryptoList{
-          color: #340736;
+          color: var(--fontColor);
    
     position: relative;
 
@@ -265,7 +267,7 @@ color:white;
     height: 800px;
   
  
-    background: linear-gradient(-90deg, var(--bgImage-prim1),var(--bgImage-prim2),var(--bgImage-prim1));
+    background: linear-gradient(90deg, var(--bgImage-prim1),var(--bgImage-prim2),var(--bgImage-prim1));
 }
 .cryptoList h2{
     margin: 40px 0;
@@ -277,7 +279,7 @@ color:white;
     border-radius: 10px;
     box-shadow: -8px 8px 5px var(--bgImage-prim1);
     padding: 10px;
-    color: #340736;
+    color: var(--fontColor);
    
     height: 600px;
 
@@ -294,7 +296,7 @@ color:white;
     font-size: 14px;
     text-align: center;
   
-    color: #340736;
+    color: var(--fontColor);
 
 }
 .crypto-container .symb,.prices{
@@ -305,7 +307,7 @@ color:white;
 }
 .crypto-headers p{
     font-size: 20px;
-    color: #340736;
+    color: var(--fontColor);
 }
 .crypto-headers{
     
@@ -324,7 +326,7 @@ color:white;
 
     .service__div{
         display: flex;
-        color: #340736;
+        color: var(--fontColor);
         flex-wrap: wrap;
         text-align: center;
         place-content: center;
@@ -350,7 +352,7 @@ color:white;
         text-align: center;
         line-height: 25px;
         padding: 10px;
-        color: #340736;
+        color: var(--fontColor);
     }
 
  
@@ -476,7 +478,7 @@ color:white;
     text-align: center;
    
     background: transparent;
-    color: #340736;
+    color: var(--fontColor);
     font-weight: 600;
     font-size: 15px;
     padding: 10px; 
@@ -496,7 +498,7 @@ color:white;
 }
 .reviews__div .reviews__author {
     margin-top: 10px;
-    color: #340736;
+    color: var(--fontColor);
     font-size: 18px;
     font-weight: 700;
 }
@@ -535,7 +537,7 @@ color:white;
     }
     .footer__container ul li a{
         text-decoration: none;
-        color: #340736;
+        color: var(--fontColor);
     }
     .footer__container ul li a:hover{
         
@@ -556,6 +558,7 @@ color:white;
 
 .save_main{
     margin-top: 100px;
+    height: 100vh;
 }
 
 .savings__div{
@@ -575,7 +578,7 @@ text-align: center;
     font-weight: 800;
 }
 .save_main h2 span{
-   color: #f3a9f7; 
+    color: #996515; 
 }
 .savings__div .save img{
     width: 250px;
@@ -589,7 +592,8 @@ text-align: center;
     transition: all ease 200ms;
 }
 .save h3 > span{
-    color: #f3a9f7; 
+    color: #996515; 
+    font-weight: 700;
 }
 
 
@@ -601,7 +605,9 @@ text-align: center;
     border-radius: 5px;
 }
 .savings__div .rate{
-    color:  #00FF00;
+    color: var(--priceColor);
+    font-weight: 700;
+    
 }
 
 /* Courses Components */
@@ -980,7 +986,7 @@ border: 0;
 
 }
 .cryptoList h2{
-    color: #340736;
+    color: var(--fontColor);
     font-size: 30px;
 }
 .crypto-details{

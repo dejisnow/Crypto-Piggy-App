@@ -30,7 +30,7 @@ export function Price() {
           <p key={val.id} style={
            
             parseFloat(val.priceChange1d) <= 0 ? {
-            color:'red',fontWeight:'900' } : {color :' #083d0b',fontWeight:'900'}
+            color:'red',fontWeight:'900' } : {color :' #1e5631',fontWeight:'900'}
           }>{parseFloat(val.priceChange1d) > 0 ? `+${val.priceChange1d}` : val.priceChange1d} </p>
         </div>
         
