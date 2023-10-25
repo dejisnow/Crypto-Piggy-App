@@ -649,6 +649,11 @@ text-align: center;
    height: 600px;
 
 }
+.course__credit p{
+  
+    color: var(--fontColor);
+}
+
 
 .course img{
 
@@ -1344,7 +1349,7 @@ border: 0;
     .course__duration,.course__level{
         font-size: 16px;
         font-weight: 700;
-        color: #dca6fd;
+        
     }
 
 
