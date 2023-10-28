@@ -13,9 +13,7 @@ export function Price() {
     .catch((err)=>{
       console.log(err)
     })
-    return()=>{
-
-    }
+  
     },[]);
        
 
