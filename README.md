@@ -1,2 +1,2 @@
 # Crypto-Piggy-App
-This application is offers a secure and innovative way to store digital assets like Cryptocurrencies.
+This application was built using react with features as connecting your Ethereum wallet using 
